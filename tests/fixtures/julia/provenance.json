@@ -1,0 +1,21 @@
+{
+  "julia_version": "1.13.1",
+  "source_sha256": {
+    "openBF\\src\\anastomosis.jl": "f6dfaf8ac8cb2b036d88425c4a928e687d699c41f33061ae060c590a10afd9d6",
+    "openBF\\src\\bifurcations.jl": "5fbd0a1c73b0c9337330960e15a414676a00a104cf403dd7ee6b0bfa3a6f66a3",
+    "openBF\\src\\boundary_conditions.jl": "25c8c888e7a26694118a3a44c18a2d2da9ac6acd3256613ba7f0b83db64eca55",
+    "openBF\\src\\conjunctions.jl": "e1e86c946df0bf3e88ee281a936c77adbf9e7583514681d00dc1a9be17ea8899",
+    "openBF\\src\\network.jl": "b836ec6ac8b6016d6faa06fde1693cc697c9e0caa7a44a24995fc8a1d015ac77",
+    "openBF\\src\\openBF.jl": "1a91fbbf999df362b418aaa3f028ea98248878ff13ac81b6ca37153f8e5b44a7",
+    "openBF\\src\\output.jl": "6f0c3a95595bdc72813221d95350705ff1aec6540b7640dc6c4129a71c6294a7",
+    "openBF\\src\\simulation.jl": "2e20281be0c1929fd3195632b850e3fd602d2039b45be8fc76ef05e1fa963e38",
+    "openBF\\src\\solver.jl": "391a1b07351456f7007b6ec5473abb06acedf25ceeef664d11899c3a2aac3bd4",
+    "openBF\\src\\vessel.jl": "5421cf2b9205df84373373e0115413f51b18a678d3b278bfa93cf3a89af1ebb9"
+  },
+  "kernel_dt": 1e-05,
+  "tolerance": {
+    "rtol": 1e-12,
+    "atol_area_flow": 1e-18
+  },
+  "scope": "Unmodified Julia MUSCL and junction residual/Jacobian functions. Corrected boundaries and full trajectories intentionally differ."
+}

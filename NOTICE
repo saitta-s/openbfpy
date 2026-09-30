@@ -1,0 +1,6 @@
+openbfpy includes a Python adaptation of openBF 2.8.0.
+Original numerical implementation: Copyright 2015-2026 INSIGNEO Institute
+for in silico Medicine. Licensed under the Apache License, Version 2.0.
+
+The Python implementation includes intentional corrections described in
+docs/numerical-notes.md. It is not an unmodified upstream release.

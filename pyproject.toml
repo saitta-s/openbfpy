@@ -1,0 +1,21 @@
+[project]
+name = "openbfpy"
+version = "0.1.0"
+description = "Python implementation of the openBF one-dimensional blood-flow solver"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.0", "scipy>=1.13", "PyYAML>=6.0"]
+license = {file = "LICENSE"}
+
+[project.optional-dependencies]
+fast = ["numba>=0.61"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["openbfpy*"]
+
+[project.scripts]
+openbfpy = "openbfpy.__main__:main"

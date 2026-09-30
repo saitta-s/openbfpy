@@ -1,0 +1,50 @@
+{
+  "cca": {
+    "seconds": 11.714452000000165,
+    "steps": 25645,
+    "cycles": 3,
+    "finite": true,
+    "minimum_area": 2.8310111336014828e-05,
+    "pressure_rmse_mmHg": 3.215086697021775
+  },
+  "ibif": {
+    "seconds": 36.74211690000084,
+    "steps": 28161,
+    "cycles": 3,
+    "finite": true,
+    "minimum_area": 0.00010740081756744583,
+    "pressure_rmse_mmHg": 13.51694724088171
+  },
+  "adan56": {
+    "seconds": 806.9624886999954,
+    "steps": 26298,
+    "cycles": 3,
+    "finite": true,
+    "minimum_area": 1.3843043349644113e-06,
+    "pressure_rmse_mmHg": 7.519647666618121
+  },
+  "circle_of_willis": {
+    "seconds": 1038.004722400001,
+    "steps": 101186,
+    "cycles": 3,
+    "finite": true,
+    "minimum_area": 1.7142132397008601e-06,
+    "pressure_rmse_mmHg": 11.211431155479874
+  },
+  "uta": {
+    "seconds": 5.772449800002505,
+    "steps": 16814,
+    "cycles": 3,
+    "finite": true,
+    "minimum_area": 0.00042788056302118133,
+    "pressure_rmse_mmHg": 13.314241516691915
+  },
+  "invitro": {
+    "seconds": 491.8903552999982,
+    "steps": 30977,
+    "cycles": 3,
+    "finite": true,
+    "minimum_area": 8.267717567958663e-06,
+    "pressure_rmse_mmHg": 24.640391260352068
+  }
+}

@@ -1,0 +1,43 @@
+**/*_results
+**/.DS_Store
+docs/build
+Manifest.toml
+README.html
+*.ipynb
+*.dat
+*.yml
+*.yaml
+*.conv
+**/*.swp
+**/*.pyc
+tmp_sim
+plot*
+!docs/src/man/plotting.md
+!models/**/*.yaml
+!models/**/*.dat
+models/charlton2019/**/*
+adan56/*
+baselines/*
+cha/*
+wang2015/*
+invitro*/*
+scale_study/*
+**/__pycache__
+
+# validation
+validation/*
+
+# models
+models/Boileau2015/*/*_ref
+models/Boileau2015/*/*_results
+models/**/*.eps
+models/**/*.png
+!models/Boileau2015/plot.py
+!models/Boileau2015/plot_style.txt
+!models/Boileau2015/adan56/plot.py
+
+# benchmark
+benchmark/tune.json
+benchmark/results/
+bm_results.md
+judge_bm_results.md
